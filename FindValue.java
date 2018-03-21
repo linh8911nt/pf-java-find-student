@@ -9,8 +9,8 @@ public class FindValue {
         String inputName = input.nextLine();
 
         boolean isExist = false;
-        for (int i = 0; i < students.length; i++){
-            if (students[i].equals(inputName)){
+        for (int i = 0; i < students.length; i++) {
+            if (students[i].equals(inputName)) {
                 System.out.println("Vị trí của học sinh " + inputName + " là: " + (i + 1));
                 isExist = true;
                 break;
